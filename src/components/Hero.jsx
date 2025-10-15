@@ -1,30 +1,46 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
-  const roles = ["Software Developer", "React Enthusiast", "Problem Solver"];
-  const [currentRole, setCurrentRole] = useState(0);
+  const { t } = useTranslation();
+
+  const roles = t("roles", { returnObjects: true }) || ["Yazılım Geliştirici", ".NET Developer", "Freelancer"];
+  const TYPING_SPEED = 100; // ms per character
+  const PAUSE_TIME = 2000; // pause after full word
+
   const [displayedText, setDisplayedText] = useState("");
-  const [typing, setTyping] = useState(true);
+  const [currentRole, setCurrentRole] = useState(0);
+  const [typingForward, setTypingForward] = useState(true);
 
   useEffect(() => {
-    let i = 0;
-    if (typing) {
-      const interval = setInterval(() => {
-        setDisplayedText(roles[currentRole].slice(0, i + 1));
-        i++;
-        if (i === roles[currentRole].length) {
-          setTyping(false);
-          clearInterval(interval);
-          setTimeout(() => setTyping(true), 2000); // pause 2s before next role
-        }
-      }, 100);
-      return () => clearInterval(interval);
+    let timeout;
+
+    if (typingForward) {
+      // typing forward
+      if (displayedText.length < roles[currentRole].length) {
+        timeout = setTimeout(() => {
+          setDisplayedText(roles[currentRole].slice(0, displayedText.length + 1));
+        }, TYPING_SPEED);
+      } else {
+        // finished typing, pause
+        timeout = setTimeout(() => setTypingForward(false), PAUSE_TIME);
+      }
     } else {
-      setCurrentRole((prev) => (prev + 1) % roles.length);
-      setDisplayedText("");
+      // erasing
+      if (displayedText.length > 0) {
+        timeout = setTimeout(() => {
+          setDisplayedText(roles[currentRole].slice(0, displayedText.length - 1));
+        }, TYPING_SPEED / 2);
+      } else {
+        // finished erasing, next role
+        setCurrentRole((prev) => (prev + 1) % roles.length);
+        setTypingForward(true);
+      }
     }
-  }, [currentRole, typing]);
+
+    return () => clearTimeout(timeout);
+  }, [displayedText, typingForward, currentRole, roles]);
 
   return (
     <section
@@ -37,16 +53,29 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Hi! I&apos;m Babuş
+        {t("greeting")}
       </motion.h1>
+
       <motion.h2
-        className="text-2xl md:text-3xl font-semibold text-cyan-400 h-12"
+        className="text-2xl md:text-3xl font-semibold text-cyan-400 min-h-[3rem]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        {displayedText}
+        {displayedText.split("").map((char, idx) => (
+          <span key={idx}>{char === " " ? "\u00A0" : char}</span>
+        ))}
+        <span className="ml-1 inline-block w-[2px] h-6 bg-cyan-400 animate-[blink_1s_steps(2, start)_infinite]" />
       </motion.h2>
+
+      <motion.p
+        className="mt-4 text-gray-400 max-w-xl"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+      >
+        {t("hero_description")}
+      </motion.p>
 
       <motion.div
         className="mt-12 animate-bounce text-gray-400"

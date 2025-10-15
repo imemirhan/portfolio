@@ -5,6 +5,15 @@
 html {
   scroll-behavior: smooth;
 }
+/* add to src/index.css or your global stylesheet */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-\[blink_1s_steps\(2\,_start\)_infinite\] {
+  animation: blink 1s steps(2, start) infinite;
+}
 
 body {
   margin: 0;

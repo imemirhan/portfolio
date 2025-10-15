@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-gray-900 bg-opacity-90 shadow-md z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4 text-white">
         <div className="font-bold text-xl cursor-pointer" onClick={() => scrollToSection("hero")}>
-          Babuş
+          Emirhan Ataman
         </div>
 
         {/* Desktop menu */}

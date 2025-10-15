@@ -3,7 +3,7 @@
   "roles": ["Yazılım Geliştirici", ".NET Developer", "Freelancer"],
   "hero_description": "Modern teknolojilerle kullanıcı dostu ve verimli uygulamalar geliştiriyorum.",
   "about_title": "Hakkımda",
-  "about_text": "Merhaba! Ben Babuş, fikirleri işlevsel ve güzel web uygulamalarına dönüştürmeyi seven bir yazılım geliştiricisiyim.",
+  "about_text": "Merhaba! Ben Emirhan, fikirleri işlevsel ve güzel web uygulamalarına dönüştürmeyi seven bir yazılım geliştiricisiyim.",
   "education_title": "Eğitim",
   "education": [
     {
@@ -19,13 +19,19 @@
       "position": ".NET Geliştirici",
       "company": "Finex Soft",
       "duration": "2025 Haziran - 2025 Ekim",
-      "description": "React ve modern JavaScript kütüphaneleri kullanarak responsive web uygulamaları geliştirdim."
+      "description": "Finex Soft’ta, kurumsal yazılım projelerinin geliştirilmesi ve bakım süreçlerinde aktif rol alıyorum. .NET teknolojileri ile arka uç geliştirme, EF Core ve Microsoft SQL Server üzerinde veri modelleme ve sorgu optimizasyonu yapıyorum. Docker ile konteyner tabanlı geliştirme ortamlarını yönetiyor, websocket teknolojileri ile gerçek zamanlı iletişim özellikleri ekliyorum. Yazılım mimarisi prensiplerine uygun, ölçeklenebilir ve sürdürülebilir çözümler geliştirmeye odaklanıyorum."
     },
     {
       "position": "Stajyer",
       "company": "Finex Soft",
       "duration": "2024 Ocak - 2025 Haziran",
-      "description": "Müşteri projeleri için web araçları geliştirme ve UI/UX iyileştirmelerine destek verdim."
+      "description": "Finex Soft’ta staj sürecimde .NET, C# ve EF Core kullanarak arka uç geliştirme projelerinde aktif rol aldım. Microsoft SQL Server üzerinde veri tabanı tasarımları ve sorgu optimizasyonları gerçekleştirdim. MailKit kütüphanesi ile Outlook e-postalarını sistem içine entegre ederek kullanıcıların gelen kutusunu web arayüzünden yönetebileceği bir modül geliştirdim. Grafana ve Prometheus tabanlı bir monitoring altyapısı kurarak sistem performans metriklerini takip eden ve otomatik alarmlar üreten bir yapı tasarladım. WebSocket ile gerçek zamanlı bildirim sistemleri oluşturarak kullanıcı deneyimini iyileştirdim. QNAP sunucu bakımları, yedekleme ve kullanıcı yönetimi süreçlerinde görev aldım. Docker ile konteyner tabanlı geliştirme ortamları kurarak projelerin dağıtım ve test süreçlerini hızlandırdım."
+    },
+    {
+        "position": "Gönüllü Stajyer",
+        "company": "UppSoft",
+        "duration": "2023 Mart - 2023 Haziran",
+        "description": "Gönüllü olarak çalıştığım bu şirkette PHP yazılım dilini öğrendim, danışmanım bana yazılımla ilgili temelleri öğrenmem için proje verdi. Burada yaptığım staj süresince arkaplan geliştirme temellerini öğrendim"
     }
   ],
   "projects_title": "Projeler",

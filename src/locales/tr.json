@@ -1,0 +1,50 @@
+{
+  "greeting": "Merhaba 👋, ben Emirhan",
+  "roles": ["Yazılım Geliştirici", ".NET Developer", "Freelancer"],
+  "hero_description": "Modern teknolojilerle kullanıcı dostu ve verimli uygulamalar geliştiriyorum.",
+  "about_title": "Hakkımda",
+  "about_text": "Merhaba! Ben Babuş, fikirleri işlevsel ve güzel web uygulamalarına dönüştürmeyi seven bir yazılım geliştiricisiyim.",
+  "education_title": "Eğitim",
+  "education": [
+    {
+      "year": "2021 - 2025",
+      "degree": "Yazılım Mühendisliği Lisans Programı",
+      "school": "Ankara Bilim Üniversitesi",
+      "description": "Geçirdiğim 4 yıl içinde, ürünlerin gelişim sürecinde kullanılan yazılım mimarileri, süreçler ve teknolojiler hakkında derinlemesine bilgi edindim."
+    }
+  ],
+  "experience_title": "Deneyim",
+  "experience": [
+    {
+      "position": ".NET Geliştirici",
+      "company": "Finex Soft",
+      "duration": "2025 Haziran - 2025 Ekim",
+      "description": "React ve modern JavaScript kütüphaneleri kullanarak responsive web uygulamaları geliştirdim."
+    },
+    {
+      "position": "Stajyer",
+      "company": "Finex Soft",
+      "duration": "2024 Ocak - 2025 Haziran",
+      "description": "Müşteri projeleri için web araçları geliştirme ve UI/UX iyileştirmelerine destek verdim."
+    }
+  ],
+  "projects_title": "Projeler",
+  "projects": [
+    {
+      "name": "Portföy Web Sitesi",
+      "description": "React, Tailwind CSS ve Framer Motion ile geliştirilmiş kişisel portföy sitesi.",
+      "tech": "React, Tailwind CSS, Framer Motion",
+      "github": "https://github.com/yourusername/portfolio",
+      "live": "#"
+    },
+    {
+      "name": "Logic",
+      "description": "Mezuniyet projem olan Logic bir iş bulma platformudur. Kullanıcılar iş ilanlarını görüntüleyebilir, başvurabilir ve işverenler ilan oluşturabilir.",
+      "tech": "React, PostgreSQL, Swagger, .NET, Entity Framework, Cloudinary",
+      "github": "https://github.com/imemirhan/Logic",
+      "live": "#"
+    }
+  ],
+  "contact_title": "İletişim",
+  "contact_text": "Bana e-posta veya aşağıdaki sosyal bağlantılardan ulaşabilirsiniz."
+}

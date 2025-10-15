@@ -1,0 +1,50 @@
+{
+  "greeting": "Hello 👋, I'm Emirhan",
+  "roles": ["Software Developer", ".NET Developer", "Freelancer"],
+  "hero_description": "I build user-friendly and efficient applications using modern technologies.",
+  "about_title": "About Me",
+  "about_text": "Hello! I'm Emirhan, a software developer who loves turning ideas into functional and beautiful web applications.",
+  "education_title": "Education",
+  "education": [
+    {
+      "year": "2021 - 2025",
+      "degree": "Bachelor's in Software Engineering",
+      "school": "Ankara Bilim University",
+      "description": "During my 4 years, I gained in-depth knowledge of software architectures, processes, and technologies used in product development."
+    }
+  ],
+  "experience_title": "Experience",
+  "experience": [
+    {
+      "position": ".NET Developer",
+      "company": "Finex Soft",
+      "duration": "June 2025 - October 2025",
+      "description": "Developed responsive web applications using React and modern JavaScript libraries."
+    },
+    {
+      "position": "Intern",
+      "company": "Finex Soft",
+      "duration": "January 2024 - June 2025",
+      "description": "Developed web tools for client projects and supported UI/UX improvements."
+    }
+  ],
+  "projects_title": "Projects",
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "description": "Personal portfolio website built with React, Tailwind CSS, and Framer Motion.",
+      "tech": "React, Tailwind CSS, Framer Motion",
+      "github": "https://github.com/yourusername/portfolio",
+      "live": "#"
+    },
+    {
+      "name": "Logic",
+      "description": "My graduation project, Logic, is a job-finding platform. Users can view and apply for jobs, and employers can create listings.",
+      "tech": "React, PostgreSQL, Swagger, .NET, Entity Framework, Cloudinary",
+      "github": "https://github.com/imemirhan/Logic",
+      "live": "#"
+    }
+  ],
+  "contact_title": "Contact",
+  "contact_text": "You can reach me by email or through the social links below."
+}

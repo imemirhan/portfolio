@@ -3,7 +3,7 @@
   "roles": ["Yazılım Geliştirici", ".NET Developer", "Freelancer"],
   "hero_description": "Modern teknolojilerle kullanıcı dostu ve verimli uygulamalar geliştiriyorum.",
   "about_title": "Hakkımda",
-  "about_text": "Merhaba! Ben Emirhan, fikirleri işlevsel ve güzel web uygulamalarına dönüştürmeyi seven bir yazılım geliştiricisiyim.",
+  "about_text": "Merhaba! Ben Emirhan, modern web teknolojileriyle kullanıcı dostu, ölçeklenebilir ve performanslı uygulamalar geliştirmeyi seven bir yazılım geliştiricisiyim. Ağırlıklı olarak .NET ekosisteminde backend geliştirme yapıyor, React ve Redux ile güçlü frontend arayüzleri oluşturuyorum. Yazılım dünyasında sürekli öğrenmeye, yeni teknolojileri keşfetmeye ve temiz kod ilkeleriyle üretmeye önem veriyorum. Boş zamanlarımda kişisel projeler geliştirir, GitHub'da deneyimlerimi paylaşır ve kendimi sürekli geliştirmeye odaklanırım.",
   "education_title": "Eğitim",
   "education": [
     {

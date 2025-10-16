@@ -3,13 +3,13 @@
   "roles": ["Software Developer", ".NET Developer", "Freelancer"],
   "hero_description": "I build user-friendly and efficient applications using modern technologies.",
   "about_title": "About Me",
-  "about_text": "Hello! I'm Emirhan, a software developer who loves turning ideas into functional and beautiful web applications.",
+  "about_text": "Hi! I'm Emirhan, a passionate software developer who loves building user-friendly, scalable, and high-performance web applications using modern technologies. I mainly focus on backend development with .NET, while also creating powerful frontend interfaces using React and Redux. I value clean code, continuous learning, and exploring new technologies in the software world. In my free time, I enjoy developing personal projects, sharing my work on GitHub, and constantly improving my skills.",
   "education_title": "Education",
   "education": [
     {
       "year": "2021 - 2025",
       "degree": "Bachelor's in Software Engineering",
-      "school": "Ankara Bilim University",
+      "school": "Ankara Science University",
       "description": "During my 4 years, I gained in-depth knowledge of software architectures, processes, and technologies used in product development."
     }
   ],
@@ -26,6 +26,12 @@
       "company": "Finex Soft",
       "duration": "January 2024 - June 2025",
       "description": "Developed web tools for client projects and supported UI/UX improvements."
+    },
+    {
+      "position": "Volunteer Intern",
+      "company": "UppSoft",
+      "duration": "March 2023 - June 2023",
+      "description": "During my voluntary internship at this company, I learned the PHP programming language. My mentor assigned me a project to help me understand the fundamentals of software development. Throughout this internship, I gained foundational knowledge of backend development."
     }
   ],
   "projects_title": "Projects",
@@ -34,15 +40,25 @@
       "name": "Portfolio Website",
       "description": "Personal portfolio website built with React, Tailwind CSS, and Framer Motion.",
       "tech": "React, Tailwind CSS, Framer Motion",
-      "github": "https://github.com/yourusername/portfolio",
-      "live": "#"
+      "github": "https://github.com/imemirhan/portfolio"
+    },
+    {
+      "name": "Medicine Storage Tracking System",
+      "description": "Project for showing prescription of users, adding new prescription from doctors and tracking medicine stock.",
+      "tech": "React, Tailwind CSS, Axios",
+      "github": "https://github.com/imemirhan/React-Medical-Project"
+    },
+    {
+      "name": "Github Activities",
+      "description": "CLI App that shows the gityub activities of a user.",
+      "tech": "Java",
+      "github": "https://github.com/imemirhan/githubactivities"
     },
     {
       "name": "Logic",
       "description": "My graduation project, Logic, is a job-finding platform. Users can view and apply for jobs, and employers can create listings.",
       "tech": "React, PostgreSQL, Swagger, .NET, Entity Framework, Cloudinary",
-      "github": "https://github.com/imemirhan/Logic",
-      "live": "#"
+      "github": "https://github.com/imemirhan/Logic"
     }
   ],
   "contact_title": "Contact",
